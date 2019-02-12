@@ -1,0 +1,59 @@
+{
+  "editor.fontFamily": "Operator Mono, SF Mono", // "SF Mono"
+  "files.autoSave": "onFocusChange",
+  "editor.wordWrap": "on",
+  "git.path": "D:\\Program Files\\Git\\bin\\git.exe",
+  "window.zoomLevel": 0,
+  "git.autofetch": true,
+  "emmet.triggerExpansionOnTab": true,
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "editor.renderWhitespace": "none",
+  "editor.minimap.showSlider": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.editor.tabCloseButton": "off",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // show snippets before any other auto completion
+  "editor.snippetSuggestions": "top",
+  // this lets you quickly open multiple items in a row and not have the previous ones closed on you
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  // turn it off for JS
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.insertSpaces": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // Two settings bellow sets a default console in VS Code, to Cmder
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "/K",
+    "C:\\Programs\\cmder\\vendor\\init.bat"
+  ],
+  "workbench.iconTheme": "city-lights-icons-vsc-light",
+  "sync.gist": "ab18ca487e5f37269d10fd6efe586db6",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.rendererType": "dom",
+  "explorer.confirmDelete": false,
+  "editor.fontSize": 17
+}
