@@ -46,14 +46,16 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   // Two settings bellow sets a default console in VS Code, to Cmder
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
-  "terminal.integrated.shellArgs.windows": [
-    "/K",
-    "C:\\Programs\\cmder\\vendor\\init.bat"
-  ],
+  "terminal.integrated.shellArgs.windows": ["/K", "C:\\Programs\\cmder\\vendor\\init.bat"],
   "workbench.iconTheme": "city-lights-icons-vsc-light",
   "sync.gist": "ab18ca487e5f37269d10fd6efe586db6",
   "liveServer.settings.donotShowInfoMsg": true,
   "terminal.integrated.rendererType": "dom",
   "explorer.confirmDelete": false,
-  "editor.fontSize": 17
+  "editor.fontSize": 17,
+  "explorer.confirmDragAndDrop": false,
+  // prettier settings
+  "prettier.eslintIntegration": true,
+  "editor.cursorBlinking": "expand"
+  // "prettier.stylelintIntegration": true
 }
