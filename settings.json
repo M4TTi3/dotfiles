@@ -56,6 +56,8 @@
   "explorer.confirmDragAndDrop": false,
   // prettier settings
   "prettier.eslintIntegration": true,
-  "editor.cursorBlinking": "expand"
+  "editor.cursorBlinking": "expand",
   // "prettier.stylelintIntegration": true
+  // Code Spell Checker
+  "cSpell.language": "en,pl"
 }
